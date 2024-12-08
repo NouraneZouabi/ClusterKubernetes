@@ -1,0 +1,25 @@
+
+
+# In this section, we've worked with AWS with ubuntu image.
+# Follow these steps to configure your Instance:
+
+=> Get the status of the instance:
+hostnamectl status
+
+=> Change the name of the machine:
+hostnamectl set-hostname <NAME_OF_THE_MACHINE>
+
+=> Set static IP for every instance in the cluster
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------
+See, it's not that hard.                                  |
+----------------------------------------------------------
