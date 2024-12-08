@@ -1,4 +1,3 @@
-
 # This documentation is issued from Docker official documentation at "https://docs.docker.com/engine/install/ubuntu/".
 # In this section, we are going to install containerd on ubuntu as a container runtime interface(you can work with cri-o or any other CRI):
 
@@ -27,10 +26,6 @@ sudo systemctl enable containerd
 systemctl status containerd
 
 
-
-
-
-
---------------------------------------------------------------------
-Now you're a network expert. Let's move on to the next step.        |
---------------------------------------------------------------------
+----------------------------------------------------------
+Great, you are genius man !.                              |
+----------------------------------------------------------
