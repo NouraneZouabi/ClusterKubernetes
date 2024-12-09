@@ -20,6 +20,9 @@ mkdir -p ~/.kube
 sudo cp /etc/kubernetes/kubelet.conf ~/.kube/config
 sudo chown $(id -u):$(id -g) ~/.kube/config 
 
+sudo chmod 644 /var/lib/kubelet/pki/kubelet-client-current.pem
+
+
 
 --------------------------------------------------------------------
 Hey Bro, you are awesome. Keep going seriously !!!                  |
