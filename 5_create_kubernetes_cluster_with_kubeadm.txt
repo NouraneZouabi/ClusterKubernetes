@@ -15,12 +15,9 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 kubectl get pods -A
 # You should see an output containing the pods running in the kube-system namespace.
 
-=====> config worker if you have a problem 
-mkdir -p ~/.kube
-sudo cp /etc/kubernetes/kubelet.conf ~/.kube/config
-sudo chown $(id -u):$(id -g) ~/.kube/config 
 
-sudo chmod 644 /var/lib/kubelet/pki/kubelet-client-current.pem
+
+
 
 
 
